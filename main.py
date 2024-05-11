@@ -17,7 +17,7 @@ def monitor_usb_events():
     print("🔍 Monitoring USB device connections...")
 
     for usb_event in iter(watcher, None):
-        print("USB Connected!", usb_event)
+        print("USB Connected!")
         send("👋 Hi keerthivasan", "🔒 Hi keerthi vasan, someone is intruding.")
         break
 
