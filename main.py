@@ -1,1 +1,2 @@
-print("sibikrishna")
+a = "sibikrishna"
+print(a)
