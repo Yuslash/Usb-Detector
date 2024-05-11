@@ -8,3 +8,9 @@ Make sure you have the required libraries installed:
 
 ```bash
 pip install plyer wmi
+
+Usage
+Simply run the script, and it will start monitoring USB events. Whenever a new USB device is connected, a notification will be sent.
+
+```bash
+python usb_event_monitor.py
