@@ -14,11 +14,11 @@ def send(title, message):
 def monitor_usb_events():
     c = wmi.WMI()
     watcher = c.Win32_USBControllerDevice.watch_for("creation")
-    print("Monitoring USB device connections...")
+    print("🔍 Monitoring USB device connections...")
 
     for usb_event in iter(watcher, None):
         print("USB Connected!", usb_event)
-        send("Hi keerthivasan", "Hi keerthi vasan some one is intrude")
+        send("👋 Hi keerthivasan", "🔒 Hi keerthi vasan, someone is intruding.")
         break
 
 
